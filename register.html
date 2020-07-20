@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Register</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        
+    </head>
+<body>
+      <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Belaja Desain</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Materi Belajar
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="#">HTML5</a>
+              <a class="dropdown-item" href="#">CSS3</a>
+              <a class="dropdown-item" href="#">Bootstrap 4</a>
+            </div>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Daftar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+  <!--form register-->
+  <div class="col-md-6">
+    <div class="tile">
+      <h3 class="tile-title">Register</h3>
+      <div class="tile-body">
+        <form class="form-horizontal">
+          <div class="form-group row">
+            <label class="control-label col-md-3">Name</label>
+            <div class="col-md-8">
+              <input class="form-control" type="text" placeholder="Enter full name"/>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="control-label col-md-3">Email</label>
+            <div class="col-md-8">
+              <input class="form-control col-md-8" type="email" placeholder="Enter email address"/>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="control-label col-md-3">Address</label>
+            <div class="col-md-8">
+                <textarea class="form-control" rows="4" placeholder="Enter your address"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="control-label col-md-3">Gender</label>
+            <div class="col-md-9">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="gender"/>
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="gender"/>
+                  Female
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="control-label col-md-3">Photo</label>
+            <div class="col-md-8">
+              <input class="form-control" type="file" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-8 col-md-offset-3">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" />I accept the terms and conditions
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="tile-footer">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-3">
+            <button class="btn btn-primary" type="button">
+              <i class="fa fa-fw fa-lg fa-check-circle"></i>Register
+            </button>
+              &nbsp;&nbsp;&nbsp;<a class="btn btn-secondary" href="#">
+                  <i class="fa fa-fw fa-lg fa-times-circle"></i>Cancel</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>    
